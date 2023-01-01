@@ -41,17 +41,4 @@ docker tag local-image:tagname new-repo:tagname docker push new-repo:tagname
 
 https://hub.docker.com/_/openjdk
 
-How to use this image
-Start a Java instance in your app
-The most straightforward way to use this image is to use a Java container as both the build and runtime environment. 
-In your Dockerfile, writing something along the lines of the following will compile and run your project:
-
-FROM openjdk:11
-COPY . /usr/src/myapp
-WORKDIR /usr/src/myapp
-RUN javac Main.java
-CMD ["java", "Main"]
-You can then run and build the Docker image:
-
-$ docker build -t my-java-app .
-$ docker run -it --rm --name my-running-app my-java-app
+link para documentação do docker:  https://docs.docker.com/
