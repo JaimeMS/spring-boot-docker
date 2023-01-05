@@ -1,13 +1,15 @@
-# spring-boot-docker
+# Spring Boot com Docker
 ## Configurações do docker com SpringBoot
 
 
-EXEMPLO COM APLICAÇÃO SPRNG BOOT - MAVEN
+#### EXEMPLO COM APLICAÇÃO SPRNG BOOT - MAVEN
+
+![spring](https://github.com/JaimeDevS/spring-boot-docker/blob/master/spring.png) 
 
 Obs. necessário criar uma conta no repositório do docker
 https://hub.docker.com/
 
-DOCKER
+##### DOCKER
 - criar o build da aplicação - ./mvnw clean package 
 - criar um arquivo Dockerfile sem extensão na raiz do projeto
 - dentro do DockerHub procurar openjdk:11 | OBS. fazer o comando java -version para checar se é a mesma versão
