@@ -14,7 +14,7 @@ Configurações básicas do docker com SpringBoot
 ```
 ./mvnw clean package 
 ```
-- criar um arquivo [Dockerfile]() sem extensão na raiz do projeto
+- criar um arquivo [Dockerfile](https://github.com/JaimeDevS/spring-boot-docker) sem extensão na raiz do projeto
 - dentro do DockerHub procurar openjdk:11 
 ##### OBS. fazer o comando para checar se é a mesma versão
 ```
