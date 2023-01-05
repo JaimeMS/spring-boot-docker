@@ -50,7 +50,7 @@ docker stop NOME DO CONTAINER
 docker start NOME DO CONTAINER
 ```
 
-##### SUBINDO A IMAGE PARA DOCKERHUB
+## SUBINDO A IMAGE PARA DOCKERHUB
 ```
 docker login
 ```
