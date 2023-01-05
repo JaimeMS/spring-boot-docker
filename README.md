@@ -1,6 +1,8 @@
 # Spring Boot com Docker
 
-Configurações básicas do docker com SpringBoot
+Configurações básicas do SpringBoot com Docker
+
+![spring](https://github.com/JaimeDevS/spring-boot-docker/blob/master/sd.png) 
 
 ## Pré-requisitos
 
